@@ -19,6 +19,6 @@ blog:
   -search
   -comment
   -recent posts
--contact
--home
--login
+contact:
+home:
+login:
