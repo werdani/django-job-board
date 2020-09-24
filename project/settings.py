@@ -44,6 +44,8 @@ INSTALLED_APPS = [
     'home',
     'login',
     'blog',
+    #a liberarys
+    'bootstrap4',
 
 ]
 
