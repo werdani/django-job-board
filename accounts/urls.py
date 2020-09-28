@@ -6,7 +6,7 @@ app_name = 'job'
 urlpatterns = [
     path('signup',views.signup ,name='singup'),
     path('profile',views.profile,name='profile'),
-    path('profile_edit',views.profile_edit,name='profile_edit'),
+    path('profile/edit',views.profile_edit,name='profile_edit'),
 
     
 ]
