@@ -47,6 +47,8 @@ INSTALLED_APPS = [
     'blog',
     #a liberarys
     'bootstrap4',
+    'django_filters',
+
 
 ]
 
