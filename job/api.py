@@ -20,7 +20,7 @@ def job_details_api(request,id):
 
     return Response({'data':data})
 
-class JobListApi(generics.ListAPIView):
+class JobListApi(generics.ListCreateAPIView):
     queryset = job.objects.all()
     serializer_class=Jobserializers
 
