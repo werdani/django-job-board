@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     #a liberarys
     'bootstrap4',
     'django_filters',
+    'rest_framework',
 
 
 ]
@@ -147,6 +148,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 EMAIL_BACKEND= 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST= 'smtp.gmail.com'
 EMAIL_HOST_USER= 'ammaryasser554zz@gmail.com'
-EMAIL_HOST_PASSWORD= 'write a password her'
+EMAIL_HOST_PASSWORD= 'add password from gmail '
 EMAIL_USE_TLS= True
 EMAIL_PORT= '587'
